@@ -1,0 +1,10 @@
+mariadb:
+  auth:
+    username: username
+    password: password
+    database: database
+  primary:
+    podSecurityContext:
+      enabled: false
+    containerSecurityContext:
+      enabled: false
